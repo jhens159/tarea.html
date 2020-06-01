@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario</title>
+</head>
+<body>
+	<header align="center">
+		<h1>iDESWEB</h1>
+		<h2>Formulario de registro</h2>
+	</header>
+	<fieldset>
+		<legend>¿QUIÉN ERES?</legend>
+		<p>
+			<label><b>Nombre</b></label><br>
+			<input type="text" >
+		<p>
+			<label><b>Apellidos</b></label><br>
+			<input type="text">
+		</p>
+		<p>
+			<label><b>Corre electronico</b></label><br>
+			<input type="email">
+		</p>
+			<label><b>Fecha de nacimiento</b></label><br>
+			<input type="date" >
+
+		</p>
+	</fieldset>
+	<fieldset>
+		<legend>¿DE DÓNDE ERES?</legend>
+		<p>
+			<label><b>Ciudad</b></label><br>
+			<input type="text" name="Ciudad">
+		</p>
+		<p>
+			<label><b>Codigo postal</b></label><br>
+			<input type="number" name="Cp">
+		</p>
+		<p>
+			<label><b>País</b></label><br>
+			<select name="País">
+				<option>País</option>
+				<option value="1">Afganistán</option>
+				<option value="2">Alemania</option>
+				<option value="3">Argentina</option>
+				<option value="4">Bolivia</option>
+				<option value="5">Brasil</option>
+				<option value="6">Colombia</option>
+				<option value="7">Perú</option>
+			</select>			
+		</p>
+	</fieldset>
+	<fieldset>
+		<legend><b>¿CÓMO QUIERES INICIAR SESIÓN?</b></legend>
+		<p>
+			<label><b>Nombre de usuario</b></label><br>
+			<input type="text" name="NomUs">
+		</p>
+		<p>
+			<label><b>Contraseña</b></label><br>
+			<input type="password" name="CC">
+		</p>
+		<p>
+			<label><b>Vuelve a escribir la contraseña</b></label><br>
+			<input type="password" name="CCA">
+		</p>
+	</fieldset>
+	<fieldset>
+		<legend><b>CONDICIONES DE REGISTRO</b></legend>
+		<p>
+			<label><b>Deseo recibir ofertas de iDESWEB</b></label><br>
+			<input type="radio" name="oferta"><b>Una vez al dia</b>
+			<input type="radio" name="oferta2"><b>Una vez a la semana</b>
+			<input type="radio" name="oferta3"><b>Una ver al mes</b>
+		</p>
+		<p>
+			<input type="checkbox" name="condiciones"><b>Acepto el acuerdo de servicios, la declaracion de privacidad y la declaracion de uso de cookiesb</b>
+		</p>
+	</fieldset>
+	<p align="center">
+		<input type="submit" value="CREAR CUENTA" width="50%">
+	</p>
+	
+	
+</body>
+</html>
